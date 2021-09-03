@@ -1,0 +1,53 @@
+* {
+    background-color: #AA96DA;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+
+#description {
+    text-align: center;
+    padding: 50px;
+}
+
+#description #title {
+    color: white;
+    font-size: 50px;
+}
+
+#description #title:hover {
+    color: #212121;
+}
+
+.skillsBox {
+    margin: auto 50px;
+}
+
+.skill {
+    background-color: white;
+    height: 1000px;
+    float: left;
+    width: 33.33%;
+    box-shadow: inset 0px 0px 0px 0.5px #CADEFC;
+    padding: 50px;
+    font-size: x-large;
+}
+#frontend {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#framework {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#frontend, #backend, #framework {
+    color: #D6E6F2;
+}
+
+#frontend:hover, #backend:hover, #framework:hover {
+    color: #212121;
+}
+
+

@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+.bulb {
+    background: url("images/yellowBulbOff.jpg") no-repeat;
+    background-size: 100%;
+    width: 99%;
+    height: 640px;
+    margin: 10px auto;
+}
+.bulb:active{
+    background: url("images/yellowBulbOn.jpg") no-repeat;
+    background-size: 100%;
+    width: 99%;
+    height: 640px;
+    margin: 10px auto;
+}
