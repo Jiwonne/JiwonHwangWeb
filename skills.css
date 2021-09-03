@@ -20,34 +20,57 @@
 }
 
 .skillsBox {
-    margin: auto 50px;
+    margin: auto 50px
 }
 
 .skill {
     background-color: white;
-    height: 1000px;
+    height: 700px;
     float: left;
     width: 33.33%;
     box-shadow: inset 0px 0px 0px 0.5px #CADEFC;
     padding: 50px;
+    margin-bottom: 50px;
     font-size: x-large;
 }
-#frontend {
+#radius1 {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
 
-#framework {
+#radius2{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
 
-#frontend, #backend, #framework {
+#frontend, #backend, #additional {
+    background-color: white;
+    font-weight: bold;
     color: #D6E6F2;
+    /* padding-bottom: 50px; */
 }
 
-#frontend:hover, #backend:hover, #framework:hover {
+#frontend:hover, #backend:hover, #additional:hover {
     color: #212121;
+}
+
+#ability1, #ability2, #ability3 {
+    background-color: white;
+    color:  #D6E6F2;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#frontend:hover + #ability1, 
+#backend:hover + #ability2,
+#additional:hover + #ability3 {
+    color: #212121;
+}
+
+.technicalDescription {
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
 }
 
 

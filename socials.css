@@ -1,0 +1,21 @@
+* {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+#contactJiwon {
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.contactBox {
+    background-color: #8675A9;
+    text-align: center;
+    margin: auto;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5%;
+}
