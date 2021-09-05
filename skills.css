@@ -4,7 +4,6 @@
     text-align: center;
 }
 
-
 #description {
     text-align: center;
     padding: 50px;
@@ -19,9 +18,7 @@
     color: #212121;
 }
 
-.skillsBox {
-    margin: auto;
-}
+.skillsBox {margin: auto 50px;}
 
 .skill {
     background-color: white;
@@ -50,9 +47,7 @@
     /* padding-bottom: 50px; */
 }
 
-#frontend:hover, #backend:hover, #additional:hover {
-    color: #212121;
-}
+#frontend:hover, #backend:hover, #additional:hover {color: #212121;}
 
 #ability1, #ability2, #ability3 {
     background-color: white;
