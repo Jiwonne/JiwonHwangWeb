@@ -2,7 +2,12 @@
     font-family: 'PT Serif', serif;
     text-align: left;
 }
-
+.nav .nav-item .nav-link {
+    color: rgb(120, 118, 118) !important;
+}
+.nav .nav-item .nav-link:hover{
+    color: #000 !important;
+}
 #onActivate {
     color: #FFB319;
 }
@@ -30,4 +35,6 @@
 .contact {
     text-align: center;
 }
+
+
 

@@ -1,5 +1,8 @@
+ body {
+    background-color: #AA96DA !important;
+
+}
 * {
-    background-color: #AA96DA;
     font-family: 'PT Serif', serif;
     text-align: center;
 }
@@ -18,11 +21,23 @@
     color: #212121;
 }
 
-.skillsBox {margin: auto 50px;}
+.skillsBox {
+    height: fit-content;
+    width: 90%;
 
+    margin: 0 auto;
+
+
+}
+.nav .nav-item .nav-link {
+    color: rgb(120, 118, 118) !important;
+}
+.nav .nav-item .nav-link:hover{
+    color: #000 !important;
+}
 .skill {
     background-color: white;
-    height: 700px;
+    height: 747px;
     float: left;
     width: 33.33%;
     box-shadow: inset 0px 0px 0px 0.5px #CADEFC;
@@ -41,31 +56,54 @@
 }
 
 #frontend, #backend, #additional {
-    background-color: white;
     font-weight: bold;
-    color: #D6E6F2;
-    /* padding-bottom: 50px; */
+   
+}
+#frontend{
+    color: #f89f19;
+
+}
+#backend{
+    color: #195cf8;
+    
+}
+#additional{
+    color: #89f819;
+    
 }
 
-#frontend:hover, #backend:hover, #additional:hover {color: #212121;}
+/* #frontend:hover, #backend:hover, #additional:hover {color: #212121;} */
 
 #ability1, #ability2, #ability3 {
-    background-color: white;
-    color:  #D6E6F2;
+    color:  #080808;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
 
-#frontend:hover + #ability1, 
+/* #frontend:hover + #ability1, 
 #backend:hover + #ability2,
 #additional:hover + #ability3 {
     color: #212121;
-}
+} */
 
 .technicalDescription {
-    background-color: white;
     text-align: center;
     font-size: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .skill {
+        height: fit-content;
+        float: left;
+        width: 100%;
+        box-shadow: inset 0px 0px 0px 0.5px #cadefc;
+        /* padding: 50px; */
+        margin-bottom: 50px;
+        font-size: x-large;
+        border-radius: 20px !important;
+        line-height: 24px;
+    }
 }
 
 
