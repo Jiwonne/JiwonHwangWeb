@@ -1,4 +1,4 @@
-# On & Off
+# On & Off personal website
 Jiwon Hwang | hwan0033@algonquinlive.com
 
 Description |
